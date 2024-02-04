@@ -399,7 +399,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-bottom: 16px;
 }
 .span-logo-white {
     color: #F4F4FD;
@@ -410,7 +409,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
 }
 .footer-item {
     display: flex;
