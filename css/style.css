@@ -375,6 +375,9 @@ img {
 .end-info {
     background-color: #2e2f42;
     padding: 100px 0;
+    max-width: 1440px;
+    width: 100%;
+        margin: 0 auto;
 }
 .footer-container {
     display: flex;
@@ -415,7 +418,6 @@ img {
 .footer-item {
     display: flex;
     gap: 16px;
-    justify-content: center;
 }
 .footer-item-element {
     width: 40px;
