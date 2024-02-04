@@ -415,6 +415,7 @@ img {
 .footer-item {
     display: flex;
     gap: 16px;
+    justify-content: center;
 }
 .footer-item-element {
     width: 40px;
