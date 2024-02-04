@@ -126,7 +126,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ \(1\).jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 }
 .solutions {
     color: #ffffff;
@@ -325,11 +325,10 @@ img {
     row-gap: 48px;
 }
 .firm-item-section {
-    width: calc((100% - 48px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: calc((100% - 48px) / 3);  
 }
 .firm-item-section:hower {
-    transform: translateY(0%);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-list {
     position: relative;
@@ -404,12 +403,13 @@ img {
     color: #F4F4FD;
 }
 .social-info {
+    color: #ffffff;
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #ffffff;
-    margin-bottom: 16px;
+    
 }
 .footer-item {
     display: flex;
