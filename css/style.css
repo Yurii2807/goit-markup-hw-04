@@ -14,6 +14,16 @@ ul {
 img {
     display: block;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
 .container {
     width: 1158px;
     padding: 0 15px;
@@ -113,9 +123,7 @@ img {
     color: #404BBF;
 }
 
-.solution-container {
-    background: #2E2F42;
-}
+
 
 .section-one {
     background-color: #2e2f42;
